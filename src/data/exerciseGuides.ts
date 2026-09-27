@@ -1,0 +1,29 @@
+export type Illustration = 'squat' | 'lunge' | 'hinge' | 'single-leg-hinge' | 'floor-press' | 'overhead-press' | 'row' | 'pullover' | 'lateral-raise' | 'curl' | 'overhead-extension' | 'calf-raise' | 'carry' | 'dead-bug' | 'reverse-fly' | 'skull-crusher' | 'sumo-deadlift'
+export interface ExerciseGuide { illustration: Illustration; setup: string; movement: string }
+
+export const exerciseGuides: Record<string, ExerciseGuide> = {
+  'goblet-squat': { illustration: 'squat', setup: 'Hold one dumbbell at your chest. Set your feet just wider than your hips.', movement: 'Bend your knees and sit down between your legs. Push the floor away to stand.' },
+  'floor-press': { illustration: 'floor-press', setup: 'Lie on your back, knees bent. Hold the dumbbell in one hand above your chest.', movement: 'Lower your elbow to the floor, then press straight up. Repeat on the other arm.' },
+  'one-arm-row': { illustration: 'row', setup: 'Hinge at your hips. Brace your free hand on your thigh or a sturdy surface.', movement: 'Pull the dumbbell toward your hip, then lower it slowly. Switch arms.' },
+  'romanian-deadlift': { illustration: 'hinge', setup: 'Stand tall with the dumbbell in front of your thighs. Keep knees soft.', movement: 'Push your hips back while the weight stays close to your legs. Stand by driving your hips forward.' },
+  'overhead-press': { illustration: 'overhead-press', setup: 'Stand tall with the dumbbell at one shoulder. Keep ribs over hips.', movement: 'Press it overhead, then lower with control. Switch arms.' },
+  'calf-raise-a': { illustration: 'calf-raise', setup: 'Stand upright with the dumbbell at your side. Hold a wall for balance if needed.', movement: 'Rise onto the balls of your feet. Pause, then lower your heels slowly.' },
+  'suitcase-march-a': { illustration: 'carry', setup: 'Hold one dumbbell at your side like a suitcase. Stand tall without leaning.', movement: 'March in place slowly, lifting one knee at a time. Keep your torso level.' },
+  'reverse-lunge': { illustration: 'lunge', setup: 'Stand tall with the dumbbell by your side.', movement: 'Step one leg backward and lower both knees. Push through the front foot to return; switch legs.' },
+  'squeeze-press': { illustration: 'floor-press', setup: 'Lie on your back with bent knees. Hold one dumbbell with both hands over your chest.', movement: 'Squeeze your hands inward as you lower the weight toward your chest, then press it up.' },
+  'bent-over-row': { illustration: 'row', setup: 'Hinge at your hips with a flat back. Let the dumbbell hang beneath your shoulder.', movement: 'Pull your elbow back toward your hip, lower slowly, then switch arms.' },
+  'single-leg-rdl': { illustration: 'single-leg-hinge', setup: 'Stand on one leg with a soft knee. Hold the dumbbell in the opposite hand.', movement: 'Hinge forward as the other leg reaches back. Return to standing; switch sides.' },
+  'lateral-raise': { illustration: 'lateral-raise', setup: 'Stand tall with the dumbbell beside your thigh. Keep a small elbow bend.', movement: 'Lift your arm out to shoulder height, lower slowly, then switch arms.' },
+  'hammer-curl': { illustration: 'curl', setup: 'Hold the dumbbell at your side with your palm facing in.', movement: 'Curl toward your shoulder without swinging your torso. Lower slowly; switch arms.' },
+  'overhead-extension': { illustration: 'overhead-extension', setup: 'Hold one dumbbell overhead with both hands. Keep elbows pointing forward.', movement: 'Bend your elbows to lower it behind your head, then straighten your arms.' },
+  'dead-bug': { illustration: 'dead-bug', setup: 'Lie on your back with knees above hips and one dumbbell held over your chest.', movement: 'Lower the opposite leg slowly while keeping your lower back down, then switch.' },
+  'front-squat': { illustration: 'squat', setup: 'Hold a dumbbell at each shoulder. Set your feet just wider than your hips.', movement: 'Sit down between your legs, keeping your chest tall. Stand by pushing through your feet.' },
+  'neutral-floor-press': { illustration: 'floor-press', setup: 'Lie on your back with bent knees. Hold the dumbbell above one side of your chest, palm inward.', movement: 'Lower your elbow to the floor, press up, and switch arms.' },
+  'pullover': { illustration: 'pullover', setup: 'Lie on your back with bent knees. Hold one dumbbell over your chest with both hands.', movement: 'Arc the weight behind your head as far as comfortable, then bring it back over your chest.' },
+  'sumo-deadlift': { illustration: 'sumo-deadlift', setup: 'Stand wide with toes turned slightly out. Hold the dumbbell between your legs.', movement: 'Bend hips and knees to lower the weight, then stand tall by pushing through your feet.' },
+  'reverse-fly': { illustration: 'reverse-fly', setup: 'Hinge at your hips. Let the dumbbell hang beneath one shoulder.', movement: 'Raise that arm out to the side with a soft elbow, lower slowly, then switch arms.' },
+  'alternating-curl': { illustration: 'curl', setup: 'Stand tall with the dumbbell at your side and palm forward.', movement: 'Curl to your shoulder without swinging. Lower slowly, then switch arms.' },
+  'skull-crusher': { illustration: 'skull-crusher', setup: 'Lie on your back with bent knees. Hold one dumbbell over your chest with both hands.', movement: 'Keep upper arms steady; bend elbows to lower the weight toward your forehead, then straighten.' },
+  'calf-raise-c': { illustration: 'calf-raise', setup: 'Stand upright with the dumbbell at your side. Hold a wall for balance if needed.', movement: 'Rise onto the balls of your feet. Pause, then lower your heels slowly.' },
+  'suitcase-march-c': { illustration: 'carry', setup: 'Hold one dumbbell at your side like a suitcase. Stand tall without leaning.', movement: 'March in place slowly, lifting one knee at a time. Keep your torso level.' },
+}

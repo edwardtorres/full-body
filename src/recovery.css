@@ -1,0 +1,70 @@
+.recovery-shell { min-height: 100vh; background: #f5f3ee; color: #173b3d; }
+.secondary-page-header { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px clamp(20px,5vw,84px); border-bottom: 1px solid #d7dfd8; }
+.secondary-page-header strong { font-size: 17px; letter-spacing: -.07em; }
+.secondary-page-header strong span { color: #2b8587; }
+.secondary-page-header > span { color: #356b68; font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; }
+.small-label { color: #356e6c; }
+.recovery-main { width: min(100%, 1040px); margin: auto; padding: 52px 24px 90px; outline: none; }
+.recovery-intro { max-width: 680px; margin-bottom: 45px; }
+.recovery-intro h1 { margin: 10px 0 14px; font-size: clamp(44px,6vw,75px); line-height: 1; letter-spacing: -.07em; }
+.recovery-intro p,.recovery-section p,.recovery-today > p,.recovery-stop li { color: #4f6c65; font-size: 14px; line-height: 1.6; }
+.recovery-today,.recovery-section { padding: 28px 0 34px; border-top: 1px solid #cbd9d0; }
+.recovery-today { padding: 31px; border: 1px solid #c7d8cd; border-radius: 12px; background: #fbfaf6; margin-bottom: 31px; }
+.recovery-section-title h2 { margin: 7px 0 14px; font-size: clamp(27px,3vw,37px); line-height: 1.1; letter-spacing: -.05em; }
+.recovery-choices { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; margin-top: 28px; }
+.recovery-choice-group { min-width: 0; margin: 0; padding: 0; border: 0; }
+.recovery-choice-group legend { margin-bottom: 10px; color: #356d69; font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing: .06em; }
+.recovery-choice-group > div { display: flex; flex-wrap: wrap; gap: 7px; }
+.recovery-choice-group label { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; border: 1px solid #c7d7cd; border-radius: 6px; background: #fff; color: #426760; font-size: 12px; cursor: pointer; }
+.recovery-choice-group label.selected { border-color: #247d7c; background: #e7f2ea; color: #135b5f; font-weight: 700; }
+.recovery-choice-group input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.recovery-choice-group label:focus-within { outline: 2px solid #b95f40; outline-offset: 3px; }
+.recovery-save-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 27px; }
+.recovery-save { min-height: 46px; padding: 0 18px; border: 1px solid #176c70; border-radius: 7px; background: #176c70; color: #fff; font: 700 11px ui-monospace,SFMono-Regular,Menlo,monospace; cursor: pointer; }
+.recovery-save:disabled { opacity: .48; cursor: default; }
+.recovery-save-row small { color: #4d6b64; font-size: 11px; }
+.recovery-saved { color: #186f6e; font-size: 12px; }
+.recovery-reflection { margin-top: 25px; padding: 22px; border-left: 3px solid #2c8683; background: #edf4ed; }
+.recovery-reflection h3 { margin: 11px 0 6px; font-size: 23px; letter-spacing: -.04em; }
+.recovery-reflection p { margin: 5px 0; color: #3d625c; line-height: 1.55; }
+.recovery-steps,.recovery-stop ul { margin: 18px 0 0; padding-left: 23px; }
+.recovery-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; list-style-position: inside; padding: 0; }
+.recovery-steps li { padding: 20px; border: 1px solid #d0ddd3; border-radius: 8px; background: #fbfaf6; }
+.recovery-steps strong { display: block; margin-top: 11px; font-size: 15px; }
+.recovery-steps strong small { display: block; margin-top: 5px; color: #37817e; font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; }
+.recovery-steps p { margin-bottom: 0; }
+.recovery-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px 26px; }
+.recovery-facts article,.recovery-soreness-list article { padding: 15px 0; border-top: 1px solid #d9e2da; }
+.recovery-facts h3,.recovery-soreness-list h3 { margin: 0 0 4px; color: #276d6c; font: 700 11px ui-monospace,SFMono-Regular,Menlo,monospace; }
+.recovery-facts p,.recovery-soreness-list p { margin: 0; }
+.recovery-soreness-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+.recovery-stop li { margin-bottom: 7px; }
+.recovery-stop > p { max-width: 700px; margin-top: 20px; }
+.recovery-sources { margin-top: 22px; color: #5e7975; font-size: 12px; }
+.recovery-sources summary { cursor: pointer; }
+.recovery-sources a { color: #176c70; }
+.body-map-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; width: 100%; height: 100%; min-height: 180px; color: #54827b; font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing: .08em; }
+.body-map-placeholder-shape { width: 74px; height: 120px; border: 1px solid #b4d0c2; border-radius: 48% 48% 35% 35%; background: linear-gradient(135deg,#e8f2e8,#d7e8de); box-shadow: 0 0 0 18px #eaf1e9; opacity: .82; }
+.rest-next { display: flex; flex-direction: column; gap: 6px; margin: 11px 0 19px; color: #315e5e; font-size: 14px; line-height: 1.4; }
+.rest-next span { color: #426760; font: 700 10px ui-monospace,SFMono-Regular,Menlo,monospace; }
+.rest-actions button:first-child { border-color: #287f84; background: #287f84; color: #fff; }
+.workout-summary > .summary-celebrations { margin-top: 20px; }
+.summary-celebrations { grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); }
+.summary-celebrations > div { padding: 13px 15px; }
+.progress-empty-intro { display: grid; gap: 6px; max-width: 580px; margin: 0 0 28px; padding: 17px; border-left: 3px solid #318480; background: #eaf2eb; color: #456b65; font-size: 13px; line-height: 1.5; }
+.progress-empty-intro strong { color: #1e6868; font: 700 11px ui-monospace,SFMono-Regular,Menlo,monospace; }
+.benchmark-empty { max-width: 580px; margin: 10px 0 24px; padding: 14px 16px; border: 1px solid #d0ded3; border-radius: 7px; background: #f8faf5; color: #5a7770; font-size: 13px; line-height: 1.5; }
+.insight-intro small,.insight-empty p,.insight-detail-intro,.progress-empty,.benchmark-empty { color: #506e67; }
+.chip-complete-mark { color: #186f70; font-size: 12px; font-weight: 800; }
+@media(max-width:600px) { .region-chip { min-height: 40px; } .view-button { height: 44px; } .reset-day-button { min-height: 44px; } .insight-period button { min-height: 44px; } .difficulty-families summary { min-height: 44px; } }
+.dashboard-recovery-link { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; width: 100%; margin-top: 23px; padding: 16px 0; border: 0; border-top: 1px solid #d6e1d8; border-bottom: 1px solid #d6e1d8; background: transparent; text-align: left; cursor: pointer; }
+.dashboard-recovery-link > span:last-child { display: flex; align-items: center; gap: 8px; color: #245f61; font-size: 12px; }
+.dashboard-recovery-link:hover > span:last-child { color: #13858a; }
+.dashboard-recovery-link:focus-visible,.recovery-save:focus-visible { outline: 2px solid #b95f40; outline-offset: 3px; }
+.app-error { display: flex; min-height: 100vh; flex-direction: column; align-items: flex-start; justify-content: center; max-width: 760px; margin: auto; padding: 40px 24px; color: #123033; }
+.app-error-brand { color: #1a6d6e; font: 800 12px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing: .16em; }
+.app-error h1 { margin: 19px 0 5px; font-size: clamp(38px,7vw,65px); letter-spacing: -.06em; line-height: 1.05; }
+.app-error p { max-width: 440px; color: #426760; line-height: 1.6; }
+.app-error button { min-height: 48px; margin-top: 18px; padding: 0 23px; border: 1px solid #123033; border-radius: 6px; background: #123033; color: white; font: 700 11px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing: .08em; }
+@media(max-width:760px) { .recovery-choices { grid-template-columns: 1fr; gap: 20px; } .recovery-steps,.recovery-soreness-list { grid-template-columns: 1fr; gap: 8px; } .recovery-main { padding: 36px 20px 70px; } }
+@media(max-width:430px) { .secondary-page-header { padding: 10px 15px; } .secondary-page-header > span { display: none; } .recovery-main { padding: 30px 16px 64px; } .recovery-today { padding: 20px 16px; } .recovery-facts { grid-template-columns: 1fr; } .recovery-intro h1 { font-size: 45px; } }

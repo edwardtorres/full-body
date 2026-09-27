@@ -1,0 +1,14 @@
+{
+  "name": "fullbody-edward-torres",
+  "compatibility_date": "2026-09-25",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "fullbody.edwardtorres.dev",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./dist"
+  }
+}

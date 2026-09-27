@@ -1,0 +1,12 @@
+{
+  "name": "Full Body — Dumbbell Workout Tracker",
+  "short_name": "Full Body",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f5f3ee",
+  "theme_color": "#f5f3ee",
+  "icons": [
+    { "src": "/favicon-64.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
