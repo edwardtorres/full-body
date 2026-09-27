@@ -2,7 +2,9 @@
 
 Full Body is a browser-based dumbbell workout tracker built around an interactive 3D muscle map. It helps people train with a fixed pair of dumbbells and floor space, log each set, and progress through reps and exercise variations.
 
-**Production:** [fullbody.edwardtorres.dev](https://fullbody.edwardtorres.dev/) · **Release:** v1.0.0
+- **Live App:** [https://fullbody.edwardtorres.dev/](https://fullbody.edwardtorres.dev/)
+- **Source:** [https://github.com/edwardtorres/full-body](https://github.com/edwardtorres/full-body)
+- **Release:** v1.0.0
 
 ## Features
 

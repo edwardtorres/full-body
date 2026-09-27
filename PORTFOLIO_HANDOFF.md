@@ -2,7 +2,7 @@
 
 **Project name:** Full Body  
 **Live URL:** [https://fullbody.edwardtorres.dev/](https://fullbody.edwardtorres.dev/)  
-**Repository:** Add the repository URL when one is published; no remote repository is configured in this project.
+**Repository:** [https://github.com/edwardtorres/full-body](https://github.com/edwardtorres/full-body)
 
 ## Short description
 
